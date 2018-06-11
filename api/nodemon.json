@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_ATLAS_PW": "wi7GPCEFo4Sop66h",
+    "MONGO_MLAB_PW": "floratalk1"
+  }
+}
