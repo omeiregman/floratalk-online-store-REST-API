@@ -16,6 +16,7 @@ mongoose.connect(
 ///mongoose.connect("mongodb://floratalk:floratalk1@ds147420.mlab.com:47420/floratalkdb");
 
 app.use(morgan('dev'));
+app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
